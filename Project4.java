@@ -1,6 +1,6 @@
 package com.khraw;
 
-public class project4 {
+public class Project4 {
     public static void main(String args[]) {
         int basicSalary = 10000;
         double grossSalary = calculateGrossSalary(basicSalary);

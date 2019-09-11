@@ -1,6 +1,6 @@
 package com.khraw;
 
-public class project3 {
+public class Project3 {
     public static void main(String args[]) {
         String stream = determinedStream(9, 9, 9);
         System.out.println(stream);
