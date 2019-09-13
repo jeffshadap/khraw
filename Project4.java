@@ -40,6 +40,8 @@ public class Project4 {
     public static double calculateGrossSalary(int basicSalary) {
         return basicSalary + calculateDearnessAllowance(basicSalary) + calculateSpecialAllowance(basicSalary);
     }
+
+
     /*
     public static double calculateGrossSalary2(int basicSalary) {
         double grossSalary = 0;
