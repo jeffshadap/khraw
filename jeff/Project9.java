@@ -1,23 +1,22 @@
-package com.khraw;
+package com.khraw.jeff;
 
 import java.util.Scanner;
 
 public class Project9 {
+
     public static void main(String[] args) {
-        int years;
-        int showroomPrice;
-
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter showroom price");
-        showroomPrice = sc.nextInt();
-        System.out.println("Enter years");
-        years = sc.nextInt();
-
+        int showroomPrice = readInt("Enter showroom price");
+        int years = readInt("Enter years");
         double depreciationRate = getDepreciationRate(years);
         double depreciatedValue = depreciationRate * showroomPrice;
         double amountPaid = showroomPrice - depreciatedValue;
     }
 
+    public static int readInt(String prompt) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(prompt);
+        return sc.nextInt();
+    }
 
     public static double getDepreciationRate(int years) {
         double rate = 0.0;

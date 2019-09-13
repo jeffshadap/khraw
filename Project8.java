@@ -11,8 +11,6 @@ public class Project8 {
             case 1:
                 System.out.println("Natural log");
                 break;
-
-
             case 2:
                 System.out.println("Absolute value");
                 break;
