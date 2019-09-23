@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Project1 {
     public static void main(String[] args) {
+
         int days = readInt("enter no days");
         double rate = calculateRate(days);
         double fine = rate * days;
